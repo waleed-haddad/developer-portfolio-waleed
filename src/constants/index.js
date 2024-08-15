@@ -9,32 +9,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2024 - Present",
+    role: "Software Developer Intern",
+    company: "Crypto4A Technologies",
+    description: `Involved in designing, writing and testing software for Crypto4A's 'QxEDGE' security platform, by using Python and Bash scripts to setup logging services. Utilized Jenkins to automate testing for new software as well as troubleshoot and provide bugfixes. Setup and ran dockerized containers for services linked to 'QxEDGE' platform.`,
+    technologies: ["Python", "Jenkins", "Docker", "Bash"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "May 2023 - Aug 2023",
+    role: "GIS Technician Intern",
+    company: "University Of Toronto",
+    description: `Collaborated with Department of Physical & Environmental Sciences to perform GIS data analysis using ArcGIS and RStudio. Assisted in the production of maps and databases with ArcGIS, and summary reports with Excel. Developed Python scripts for ArcGIS projects to increase automation, efficiency, and precision of resulting data.`,
+    technologies: ["Python", "ArcGIS", "RStudio", "Excel"],
   },
 ];
 
