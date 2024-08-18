@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1-planit.png";
+import project2 from "../assets/projects/project-2-squadup.png";
+import project3 from "../assets/projects/project-3-pluto.png";
+import project4 from "../assets/projects/project-4-checkup.png";
 
 export const PROFILE_CONTENT = `I am a passionate full stack developer with an interest in robust and scalable web and mobile applications. With numerous projects and an internship under my belt, I aim to further hone my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, Docker, and MongoDB. My goal is to leverage my past experiences and my strong communication skills to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -26,32 +26,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "PlanIt - Web Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A full stack web-application which allows users to plan group trips interactively. Core features include voting on travel ideas, interactive planning board, budget tracking, Google Maps integration and user authentication.",
+    technologies: ["React", "MaterialUI", "ExpressJS", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "SquadUp - Mobile App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A full stack mobile application for both Iphone and Android which uses community to foster physical health. Users can make groups, track progress for fitness and sports, add squad events which sync between members, and connect to university databases to display drop-in sports schedules.",
+    technologies: ["React Native", "Python", "Firebase", "Figma"], 
   },
   {
-    title: "Portfolio Website",
+    title: "Pluto Financial - eLearning Platform",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Worked as the project manager for an elearning platform known as Pluto Financial, setting up weekly meetings and project milestones. The platform teaches users about financial literacy through interactive modules with videos and quizzes, progress tracking, and bank sponsorships.",
+    technologies: ["Vite", "NodeJs", "Jira", "Figma"],
   },
   {
-    title: "Blogging Platform",
+    title: "CheckUp - Mobile App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A simple, easy-to-use mobile app which reminds users to check up on friends in a set interval. This project served as the basis for me teaching myself React Native and Firebase authentication.",
+    technologies: ["React Native", "ExpoGO", "Firebase"],
   },
 ];
 
