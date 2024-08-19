@@ -43,7 +43,7 @@ const Profile = () => {
                 <motion.img 
                   initial={{x: 100, opacity: 0}}
                   animate={{x: 0, opacity: 1}}
-                  transition={{duration: 1, delay: 1.2}}
+                  transition={{duration: 1.5, delay: 0}}
                   src={profilePic} alt="Waleed Haddad" />
               </div>
             </div>
